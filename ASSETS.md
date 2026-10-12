@@ -1,0 +1,5 @@
+# Aset visual
+- Logo: berkas pengguna “Huruf N Puzzle Ilusi Sedang (4).png”, disalin apa adanya ke dist/assets/img/connective-logo.png. Area transparan dibingkai lewat CSS.
+- Hero: dist/assets/3d/chain.png. Dibuat dengan built-in imagegen.
+- Prompt: Create a premium 3D brand illustration for an Indonesian creative event organizer website. Two large chunky interlocking rounded rectangular chain links, one luminous acid lime green (#bbff40) and one polished dark silver chrome. Floating diagonally from lower left to upper right, realistic deep extrusion, beautiful smooth rounded bevels, detailed studio reflections and soft shadows. Centered composition with complete links visible and generous empty margins. Background solid very dark charcoal #10120f, no text, no lettering, no logos, no extra objects. Square high resolution. Sculptural confident editorial design, subtle lime light bounce, cinematic studio product render. This is a decorative hero asset.
+- Portofolio: komposisi tipografi HTML/CSS, bukan foto kegiatan.

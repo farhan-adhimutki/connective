@@ -1,0 +1,6 @@
+.sites-local/
+node_modules/
+qa-output/
+*.tar.gz
+*.zip
+qa.cjs
