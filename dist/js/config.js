@@ -1,7 +1,7 @@
 // Isi hanya dengan kontak resmi yang sudah dikonfirmasi.
 // WhatsApp: format internasional tanpa + atau spasi, contoh format: 62...
 window.CONNECTIVE_CONFIG = Object.freeze({
-  whatsapp: "",
+  whatsapp: "6288276441831",
   email: "conectiveideo@gmail.com",
   instagram: "conectiveid",
   // Isi domain produksi bila berubah setelah publikasi.
