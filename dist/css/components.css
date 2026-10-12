@@ -2,3 +2,22 @@
 @media(max-width:767px){.nav-wrap{height:78px;gap:20px}.brand{width:151px}.nav-cta{display:none}.menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:7px;width:44px;height:44px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--text);padding:10px}.menu-toggle span{width:22px;height:1px;background:currentColor;transition:transform .3s var(--ease-out)}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(4px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-4px) rotate(-45deg)}#main-nav{position:absolute;top:78px;left:0;right:0;padding:25px 30px 35px;background:#181d14;border-bottom:1px solid var(--line);display:none;flex-direction:column;gap:5px;font-size:20px}#main-nav.is-open{display:flex}.arcade{margin:0 12px 10px 3px;padding:17px}.arcade-screen{padding:23px 20px}.arcade-controls{padding-inline:4px}.arcade-top{font-size:25px}.keyword-grid{gap:18px}.keyword-grid>span{font-size:31px}.service-card .card-top{margin-bottom:18px}.service-card>p{max-width:55ch}.puzzle-piece{padding:24px}.pillars>div{grid-template-columns:100px 1fr}.project-info h3{font-size:23px}.process-grid li:nth-child(2)::before{width:100%}.process-grid li::before{width:calc(100% + 22px)}.contact-button{font-size:12px}.footer-brand{width:170px}}
 @media(scripting:none){@media(max-width:767px){#main-nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;font-size:11px;padding:5px;background:none;border:0;gap:10px}.nav-wrap{height:auto;min-height:90px;flex-wrap:wrap;gap:5px;padding:12px 0}.menu-toggle{display:none}}}
 .hero-object img{mask-image:radial-gradient(ellipse at center,#000 52%,transparent 73%)}
+
+/* Contact channel icons inherit the existing text color. */
+.contact-details [data-contact] {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.contact-details [data-contact]::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background-color: currentColor;
+  -webkit-mask: var(--contact-icon) center / contain no-repeat;
+  mask: var(--contact-icon) center / contain no-repeat;
+}
+.contact-details [data-contact="phone"] { --contact-icon: url("../assets/icons/whatsapp.svg"); }
+.contact-details [data-contact="email"] { --contact-icon: url("../assets/icons/email.svg"); }
+.contact-details [data-contact="instagram"] { --contact-icon: url("../assets/icons/instagram.svg"); }
